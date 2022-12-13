@@ -16,6 +16,6 @@ resource "aws_db_instance" "default" {
   skip_final_snapshot  = true
 
   tags = {
-    Name = "My-DB-rds"
+    Name = "MyRdsDB"
   }
 }
